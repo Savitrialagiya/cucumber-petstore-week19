@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: swagger.petstore.cucumber.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 5.175 sec <<< FAILURE! - in swagger.petstore.cucumber.CucumberRunner
+And I verify user created(| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at swagger.petstore.cucumber.steps.UserCRUDStepdef.iVerifyUserCreated(UserCRUDStepdef.java:35)
+	at ✽.And I verify user created(userCRUD.feature:6)
+
+| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at swagger.petstore.cucumber.steps.UserCRUDStepdef.iVerifyUserCreated(UserCRUDStepdef.java:35)
+	at ✽.And I verify user created(userCRUD.feature:6)
+

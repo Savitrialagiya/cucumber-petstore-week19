@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: swagger.petstore.crudtest.PetsCrudWithSteps
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.666 sec <<< FAILURE! - in swagger.petstore.crudtest.PetsCrudWithSteps
+test001(swagger.petstore.crudtest.PetsCrudWithSteps)  Time elapsed: 0.013 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at swagger.petstore.crudtest.PetsCrudWithSteps.test001(PetsCrudWithSteps.java:37)
+
+test002(swagger.petstore.crudtest.PetsCrudWithSteps)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at swagger.petstore.crudtest.PetsCrudWithSteps.test002(PetsCrudWithSteps.java:43)
+
+test003(swagger.petstore.crudtest.PetsCrudWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at swagger.petstore.crudtest.PetsCrudWithSteps.test003(PetsCrudWithSteps.java:58)
+
+test004(swagger.petstore.crudtest.PetsCrudWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at swagger.petstore.crudtest.PetsCrudWithSteps.test004(PetsCrudWithSteps.java:66)
+

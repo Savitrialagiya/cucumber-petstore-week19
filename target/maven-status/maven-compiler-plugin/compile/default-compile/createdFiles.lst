@@ -1,0 +1,11 @@
+swagger\petstore\constants\Path.class
+swagger\petstore\model\UserPojo.class
+swagger\petstore\utils\PropertyReader.class
+swagger\petstore\model\PetBodyDataPojo.class
+swagger\petstore\model\PetBodyDataPojo$TagData.class
+swagger\petstore\crudtest\UserSteps.class
+swagger\petstore\crudtest\PetSteps.class
+swagger\petstore\constants\EndPoints.class
+swagger\petstore\model\PetBodyDataPojo$CategoryData.class
+swagger\petstore\model\PetsPojo.class
+swagger\petstore\utils\TestUtils.class

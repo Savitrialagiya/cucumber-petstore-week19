@@ -1,0 +1,8 @@
+swagger\petstore\crudtest\TagsTest.class
+swagger\petstore\crudtest\PetsCrudWithSteps.class
+swagger\petstore\crudtest\DataDrivenTest.class
+swagger\petstore\cucumber\CucumberRunner.class
+swagger\petstore\crudtest\UsersCrudWithSteps.class
+swagger\petstore\cucumber\steps\UserCRUDStepdef.class
+swagger\petstore\cucumber\steps\UserStepdef.class
+swagger\petstore\testbase\TestBase.class

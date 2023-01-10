@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Pet store io user functionality" skipped="0" tests="1" time="1.67" timestamp="2023-01-10T22:05:58.051Z[Europe/London]"><testcase name="Crud Test"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+swagger.petstore.cucumber.steps.UserCRUDStepdef.iVerifyUserCreated(UserCRUDStepdef.java:35)&#13;
+✽.And I verify user created(userCRUD.feature:6)&#13;
+</system-err></testcase></testsuite>

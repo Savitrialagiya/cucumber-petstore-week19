@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="swagger.petstore.cucumber.CucumberRunner" time="0.303" tests="19" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hetar\IdeaProjects\cucumber-petstore-week19"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hetar\IdeaProjects\cucumber-petstore-week19"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hetar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\hetar\AppData\Local\Microsoft\WindowsApps;C:\Users\hetar\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\hetar"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hetar"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When I create user with id &quot;1&quot; username &quot;abcde&quot; firstname&quot;abc&quot; lastname&quot;xyz&quot; email&quot;abc123@gmail.com&quot; password&quot;abc123&quot; phone&quot;123456789&quot; userstatus&quot;0&quot;" classname="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" time="0"/>
+  <testcase name="And I verify user created" classname="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" time="0">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at swagger.petstore.cucumber.steps.UserCRUDStepdef.iVerifyUserCreated(UserCRUDStepdef.java:35)
+	at ✽.And I verify user created(userCRUD.feature:6)
+</failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/user/abcde
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	username=abcde
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 10 Jan 2023 22:05:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1,
+    "username": "abcde",
+    "firstName": "abc",
+    "lastName": "xyz",
+    "email": "abc123@gmail.com",
+    "password": "abc123",
+    "phone": "123456789",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" classname="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at swagger.petstore.cucumber.steps.UserCRUDStepdef.iVerifyUserCreated(UserCRUDStepdef.java:35)
+	at ✽.And I verify user created(userCRUD.feature:6)
+</failure>
+  </testcase>
+  <testcase name="And I update user with id &quot;1&quot; username &quot;abcde&quot; firstname&quot;abc&quot; lastname&quot;xyz&quot; email&quot;abc123@gmail.com&quot; password&quot;abc123&quot; phone&quot;123456789&quot; userstatus&quot;0&quot;" classname="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I check user is updated successfully" classname="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I delete user" classname="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify that user is deleted successfully" classname="| 1 | abcde | abc | xyz | abc123@gmail.com | abc123 | 123456789 | 0 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I create new user by providing the information" classname="Scenario: verify if user is created" time="0"/>
+  <testcase name="Then I must get a valid status code 201" classname="Scenario: verify if user is created" time="0"/>
+  <testcase name="Scenario: verify if user is created" classname="Scenario: verify if user is created" time="0.101"/>
+  <testcase name="When I sends a GET request to userID endpoint" classname="Scenario: Check if the petstore application can be accessed by User" time="0"/>
+  <testcase name="Then I must get back a valid status code 200" classname="Scenario: Check if the petstore application can be accessed by User" time="0"/>
+  <testcase name="Scenario: Check if the petstore application can be accessed by User" classname="Scenario: Check if the petstore application can be accessed by User" time="0.039"/>
+  <testcase name="When I update new user by providing the information" classname="Scenario: verify if user is updated" time="0"/>
+  <testcase name="Then I must get back a valid status code 200" classname="Scenario: verify if user is updated" time="0"/>
+  <testcase name="Scenario: verify if user is updated" classname="Scenario: verify if user is updated" time="0.09"/>
+  <testcase name="When I delete a DELETE request by providing information" classname="Scenario: verify if user is Deleted" time="0"/>
+  <testcase name="Then I verify that the status code" classname="Scenario: verify if user is Deleted" time="0"/>
+  <testcase name="Scenario: verify if user is Deleted" classname="Scenario: verify if user is Deleted" time="0.072"/>
+</testsuite>

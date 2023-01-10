@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: swagger.petstore.crudtest.DataDrivenTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.326 sec - in swagger.petstore.crudtest.DataDrivenTest
